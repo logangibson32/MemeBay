@@ -1,0 +1,56 @@
+* {
+	cursor:default;
+}
+body{
+	background:url(images/vents.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+#main{
+	background:url(images/vents.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+#music{
+	background:url(images/music.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+#anime{
+	background:url(images/anime.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+#movies{
+	background:url(images/movie.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+#nav {
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    background-color:gray;
+    height:35px;
+    text-align:center;
+    padding-top:15px;
+}
+#nav a {
+    font-size:14px;
+    padding-left:15px;
+    padding-right:15px;
+    color:black;
+    text-decoration:underline;
+}
+#nav a:hover {
+    color:blue;
+	cursor:pointer;
+}
+table{
+	width: 100%
+}
+table, th, td {
+    border: 1px solid white;
+   height: 50px;
+   background-color: rgba(0, 0, 0, 0);
+   text-align: center center;
+   vertical-align: bottom;
+}
